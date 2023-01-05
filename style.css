@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}img{
+    width: 100%;
+    height: 100%;
+}body{
+    font-family: 'Poppins', sans-serif;
+}.container{
+    width: 1080px;
+    margin: 0 auto;
+}.flex-container{
+    display: flex;
+    align-items: center;
+}a.btn-primary {
+    width: 160px;
+    padding: 15px 30px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    background-color: salmon;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+}.special{
+    padding-top: 20px;
+}hr {
+    margin: 20px;
+}
+/* Main Header Styles */
+header#main-header{
+    background-image: url(images/donation3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}.header-area{
+    width: 550px;
+    margin: 0 auto;
+}.header-items {
+    text-align: center;
+    display: flex;
+    height: 500px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+}.head-title h1 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+}.head-description p {
+    padding: 11px;
+    color: white;
+}
+/* Donate area style */
+.donate-items {
+    text-align: center;
+    display: flex;
+    width: 672px;
+    justify-content: center;
+    margin: auto;
+    height: 450px;
+    flex-direction: column;
+}.section-title {
+    padding: 20px 0px;
+}.donate-limit{
+    display: flex;
+    justify-content: space-around;
+}.amount-box {
+    padding: 20px;
+    background: #ddd;
+    width: 90px;
+    border-radius: 10px;
+}div#special-box {
+    background-color: pink;
+    color: red;
+}
+/* Planning Area Style */
+.plan-area {
+    text-align: center;
+    padding: 90px 0;
+}.donate-info {
+    width: 680px;
+    margin: 0 auto;
+}h1.plan-title {
+    padding: 10px;
+    font-size: 40px;
+}
+.plan-box {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 30px 0;
+}.family-plan {
+    width: 300px;
+}.food-plan {
+    width: 300px;
+}.child-plan {
+    width: 300px;
+}
